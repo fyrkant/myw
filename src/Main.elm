@@ -1,10 +1,11 @@
-import Counter exposing (update, view)
-import StartApp.Simple exposing (start)
+import Graphics.Element exposing (..)
+import Window
 
-
+main : Signal Element
 main =
-  start
-    { model = 0
-    , update = update
-    , view = view
-    }
+  Signal.map view Window.dimensions
+
+
+view : (Int,Int) -> Element
+view (w,h) =
+  container w h middle (show "Yay, we're getting married!")
