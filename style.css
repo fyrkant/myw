@@ -3,6 +3,11 @@ html, body {
   padding: 0;
 }
 
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
 video {
   position: absolute;
   top: 50%;
@@ -16,7 +21,7 @@ video {
 .text-cont {
   z-index: 2;
   position: absolute;
-  background-color: rgba(255,228,225,0.8);
+  background-color: rgba(255,228,225,0.9);
   top: 0;
   bottom: 0;
   left: 0;
@@ -26,7 +31,7 @@ video {
 .text {
   position: absolute;
   font-family: "retiro-std-24pt";
-  font-size: 4rem;
+  font-size: 6rem;
   color: rgba(255, 255, 255, 0.9);
   top: 50%;
   left: 50%;
@@ -39,11 +44,11 @@ p {
 }
 p.small {
   margin-top: -2rem;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "memoriam-headline-pro",sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 p.big {
-  font-size: 6rem;
+  font-size: 7rem;
 }
