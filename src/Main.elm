@@ -1,4 +1,4 @@
-import Graphics.Element exposing (..)
+import Graphics.Element exposing (container, middle, show, Element)
 import Window
 
 main : Signal Element
