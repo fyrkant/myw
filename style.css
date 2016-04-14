@@ -33,7 +33,7 @@ video {
   position: absolute;
   font-family: "retiro-std-24pt";
   font-size: 6rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #fff;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -45,12 +45,12 @@ p {
   text-align: center;
 }
 p.small {
-  margin-top: -2rem;
-  font-size: 3rem;
+  margin-top: -2vh;
+  font-size: 6vh;
   font-family: "memoriam-headline-pro",sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 p.big {
-  font-size: 7rem;
+  font-size: 12vh;
 }
