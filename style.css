@@ -22,7 +22,7 @@ video {
 .text-cont {
   z-index: 2;
   position: absolute;
-  background-color: rgba(255,228,225,0.9);
+  background-color: rgba(85,229,120,0.8);
   top: 0;
   bottom: 0;
   left: 0;
@@ -45,7 +45,8 @@ p {
   text-align: center;
 }
 p.small {
-  margin-top: -2vh;
+  margin-top: -6vh;
+  margin-bottom: -1vh;
   font-size: 6vh;
   font-family: "memoriam-headline-pro",sans-serif;
   font-style: normal;
