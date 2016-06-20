@@ -5,7 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <script src="https://use.typekit.net/ffv5klt.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script>
+    try{
+      Typekit.load(
+        { async: true,
+          active: function() {
+            // JavaScript to execute when fonts become active
+            document.querySelector(".text").classList.add("shown");
+        }
+      }
+      );
+    } catch (e) {}</script>
 </head>
 <body>
 

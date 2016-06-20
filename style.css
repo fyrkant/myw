@@ -23,10 +23,11 @@ a {
   background-color: rgba(255,255,255, 0.7);
   color: rgba(55,129,10,0.9);
   margin: 1vh;
+  height: 7vh;
   border-radius: 1vh;
   padding: .5vh;
   font-size: 6vh;
-  display: inline-block;
+  display: inline;
 }
 
 a:hover {
@@ -46,6 +47,7 @@ a:hover {
 
 .text {
   position: absolute;
+  opacity: 0;
   font-family: "retiro-std-24pt";
   font-size: 6rem;
   color: #fff;
@@ -69,4 +71,18 @@ p.small {
 }
 p.big {
   font-size: 12vh;
+}
+
+.shown {
+  animation: fadeIn ease-in .3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
